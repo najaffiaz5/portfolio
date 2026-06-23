@@ -1,14 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact | Raja Najaf Fiaz</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Raja Najaf Fiaz</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg, #008080, #0f4c5c);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+.contact-card{
+    background:#fff;
+    max-width:600px;
+    width:100%;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+    text-align:center;
+}
+
+h2{
+    color:#008080;
+    margin-bottom:20px;
+    font-size:36px;
+}
+
+.subtitle{
+    color:#666;
+    margin-bottom:30px;
+}
+
+.contact-info{
+    margin:20px 0;
+    font-size:18px;
+    color:#333;
+}
+
+.contact-info p{
+    margin:15px 0;
+}
+
+.contact-info a{
+    color:#008080;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.contact-info a:hover{
+    color:#0f4c5c;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    background:#008080;
+    color:white;
+    padding:12px 30px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#0f4c5c;
+}
+</style>
 </head>
+
 <body>
-<h2>Contact Me</h2>
-<p>Email: <a href="mailto:najaffiaz5@gmail.com">najaffiaz5@gmail.com</a></p>
-<p>Phone: +966 565859755</p>
-<p>Location: Riyadh, Saudi Arabia</p>
+
+<div class="contact-card">
+    <h2>Contact Me</h2>
+
+    <p class="subtitle">
+        Let's connect and discuss opportunities.
+    </p>
+
+    <div class="contact-info">
+        <p>📧 Email: <a href="mailto:najaffiaz5@gmail.com">najaffiaz5@gmail.com</a></p>
+        <p>📱 Phone: +966 565859745</p>
+        <p>📍 Location: Riyadh, Saudi Arabia</p>
+    </div>
+
+    <a href="mailto:najaffiaz5@gmail.com" class="btn">
+        Send Email
+    </a>
+</div>
+
 </body>
 </html>
