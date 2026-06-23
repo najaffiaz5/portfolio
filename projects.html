@@ -1,17 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Projects | Raja Najaf Fiaz</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects | Raja Najaf Fiaz</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#f4f8f9;
+    padding:40px 20px;
+    color:#333;
+}
+
+.container{
+    max-width:1100px;
+    margin:auto;
+}
+
+h2{
+    text-align:center;
+    color:#008080;
+    font-size:42px;
+    margin-bottom:40px;
+}
+
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.project-card{
+    background:#fff;
+    padding:30px;
+    border-radius:18px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.08);
+    border-top:5px solid #008080;
+    transition:0.3s;
+}
+
+.project-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 12px 25px rgba(0,0,0,0.15);
+}
+
+.project-card h3{
+    color:#0f4c5c;
+    margin-bottom:15px;
+}
+
+.project-card p{
+    line-height:1.7;
+    color:#555;
+}
+
+footer{
+    text-align:center;
+    margin-top:40px;
+    color:#666;
+}
+
+@media(max-width:768px){
+    h2{
+        font-size:32px;
+    }
+}
+</style>
+
 </head>
 <body>
-<h2>Projects</h2>
-<ul>
-  <li><strong>SPS Excess Inventory Tool</strong> – Role-based inventory management system</li>
-  <li><strong>HR Management System</strong> – Attendance & employee management</li>
-  <li><strong>University Admission Portal</strong> – Online admission system</li>
-  <li><strong>Doctor Consultancy Website</strong> – Appointment booking platform</li>
-</ul>
+
+<div class="container">
+
+<h2>My Projects</h2>
+
+<div class="projects">
+
+<div class="project-card">
+    <h3>📦 SPS Excess Inventory Tool</h3>
+    <p>Role-based inventory management system for tracking, monitoring, and controlling excess inventory efficiently.</p>
+</div>
+
+<div class="project-card">
+    <h3>👨‍💼 HR Management System</h3>
+    <p>Employee management platform with attendance tracking, employee records, reporting, and administrative features.</p>
+</div>
+
+<div class="project-card">
+    <h3>🎓 University Admission Portal</h3>
+    <p>Online admission system allowing students to apply, upload documents, and track admission status.</p>
+</div>
+
+<div class="project-card">
+    <h3>🏥 Doctor Consultancy Website</h3>
+    <p>Healthcare platform enabling patients to book appointments and connect with doctors online.</p>
+</div>
+
+</div>
+
+</div>
+
 </body>
 </html>
