@@ -4,36 +4,123 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Experience | Raja Najaf Fiaz</title>
+  <style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#f4f8f9;
+    color:#333;
+    padding:40px 20px;
+}
+
+.container{
+    max-width:1000px;
+    margin:auto;
+}
+
+h2{
+    text-align:center;
+    color:#008080;
+    font-size:42px;
+    margin-bottom:40px;
+}
+
+.experience-card{
+    background:#fff;
+    padding:30px;
+    margin-bottom:25px;
+    border-left:6px solid #008080;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.experience-card:hover{
+    transform:translateY(-5px);
+}
+
+h3{
+    color:#0f4c5c;
+    margin-bottom:10px;
+}
+
+.date{
+    color:#008080;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+ul{
+    padding-left:20px;
+}
+
+li{
+    margin-bottom:10px;
+    line-height:1.6;
+}
+
+footer{
+    text-align:center;
+    margin-top:30px;
+    color:#666;
+}
+
+@media(max-width:768px){
+    h2{
+        font-size:32px;
+    }
+
+    .experience-card{
+        padding:20px;
+    }
+}
+  </style>
 </head>
 <body>
+
+<div class="container">
+
 <h2>Professional Experience</h2>
-<h3>IT Assistant – Refal Electromechanical (Riyadh)</h3>
-<p>July 2025 – Dec 2025</p>
-<ul>
-  <li>Provided IT support for hardware, software, and network issues</li>
-  <li>Supported ERP, attendance systems, and CCTV</li>
-  <li>Maintaining IT documentation and reports</li>
-</ul>
-<h3>PHP Developer – Creative Garage (Islamabad)</h3>
-<p>Jan 2024 – Jun 2025</p>
-<ul>
-  <li>Developed Laravel-based web applications</li>
-  <li>Implemented REST APIs and database optimization</li>
-  <li>Developed responsive interfaces for cross-browser compatibility</li>
-</ul>
-<h3>Junior PHP Developer – Bit Technologies (Islamabad)</h3>
-<p>Mar 2023 – Dec 2023</p>
-<ul>
-  <li>Using HTML, CSS, and basic JavaScript alongside PHP</li>
-  <li>Hands-on experience with MySQL databases and CRUD operations</li>
-  <li>Experience using the Laravel PHP framework</li>
-</ul>
-<h3>PHP Developer Intern – Globosoft Technologies (Islamabad)</h3>
-<p>Sept 2022 – Mar 2023</p>
-<ul>
-  <li>Developed PHP-based modules and database functionality</li>
-  <li>Worked with MySQL, Git, and basic Laravel features</li>
-  <li>Gained hands-on experience in real-world web projects</li>
-</ul>
+
+<div class="experience-card">
+    <h3>IT Assistant – Refal Electromechanical (Riyadh)</h3>
+    <p class="date">July 2025 – Dec 2025</p>
+    <ul>
+        <li>Provided IT support for hardware, software, and network issues</li>
+        <li>Supported ERP, attendance systems, and CCTV</li>
+        <li>Maintained IT documentation and reports</li>
+    </ul>
+</div>
+
+<div class="experience-card">
+    <h3>Web Developer – Creative Garage (Islamabad)</h3>
+    <p class="date">Jan 2024 – Jun 2025</p>
+    <ul>
+        <li>Developed Laravel-based web applications</li>
+        <li>Implemented REST APIs and database optimization</li>
+        <li>Developed responsive interfaces for cross-browser compatibility</li>
+    </ul>
+</div>
+
+<div class="experience-card">
+    <h3>PHP Developer – Extreme Engineering (Islamabad)</h3>
+    <p class="date">Aug 2022 – Dec 2023</p>
+    <ul>
+        <li>Using HTML, CSS, and JavaScript alongside PHP</li>
+        <li>Hands-on experience with MySQL databases and CRUD operations</li>
+        <li>Experience using Laravel PHP Framework</li>
+        <li>Developed PHP modules and database functionality</li>
+        <li>Worked with MySQL, Git, and Laravel</li>
+        <li>Built real-world web applications</li>
+    </ul>
+</div>
+
+</div>
+
 </body>
 </html>
